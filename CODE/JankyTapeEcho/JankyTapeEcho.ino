@@ -351,6 +351,7 @@ void loop() {
   wasOn = switchOn;
 }
 
+// TODO examine jankyMillis function further
 //Millis function that compensates for oscillator change
 unsigned long jankyMillis() {
   return millis()/64;
